@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates the metadata directories and files to support a git repository. I need to do this because I want to track my versions of the reflections that I write.
