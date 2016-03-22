@@ -8,3 +8,5 @@ How do the diagrams help you visualize the branch structure?
 The diagrams show the tip of each branch and then the parent, parent of the parent etc. all the way back to the original commit with no parent. They also show where a branch started from a commit of the master branch.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result of merging two branches is all the commits from each branch are fit into the source files in the place in the files that they were made. We use the diagram to show what commits from each branch result in the new master branch tip ( assuming we are merging into the master branch.)
+What are the pros and cons of Git's automatic merging vs. alwys doing merges manually?
+It is very helpful for an automated process to do the merges it can - this is a very tedious process with 100 plus lines. The con is that sometimes it is difficult or not possible with Git's merge to do what the developers meant to do with their respective commits that are being merged. Code can be lost or merged incorrectly and the program no longer works correctly.
