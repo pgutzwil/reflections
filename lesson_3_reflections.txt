@@ -4,3 +4,5 @@ Why might you want to always pull changes manually rather than having Git automa
 I may be developing some code locally and may not be ready to have the new code to the same branch in GitHub. I need to come to a stable point in my code locally before bringing down the code from GitHub and merging it in.
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A clone is a copy of a Git repository from either a remote repository or another local repository. A fork is a clone of a remote Git repository from a Git account to another Git account. A branch is a new series of commits from an original commit in another branch.
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit of having a copy of the last known state of the remote stored locally is that you can check whether you are ahead of that copy in your commits. Likewise you can do a git fetch at any point and have all the remote commits that have happened since you started doing your local commits. You can merge when it makes sense in your process.
