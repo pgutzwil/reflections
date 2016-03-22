@@ -1,2 +1,4 @@
 What happens when you initialize a repository? Why do you need to do it?
 Git creates the metadata directories and files to support a git repository. I need to do this because I want to track my versions of the reflections that I write.
+How can you use the staging area to make sure you have one commit per logical change?
+By adding one file at a time to the staging area and doing a git status and git diff --staged, you can ensure that only changes that you want to commit are added to the staging area. if you have other changes, you can do a git reset after you have done the git commit.
